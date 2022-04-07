@@ -45,7 +45,7 @@ function displayResults()
 }
 
 function displayScores() {
-    document.getElementById("scores_table").innerHTML = "<h2> Scores </h2><br /> <tr><th>Name</th><th>Score</th></tr>"
+    document.getElementById("scores_table").innerHTML = "<h2> Scores </h2><br /> <tr></tr>"
     
     for (var i = 0; i < scores.length; i++) {
         var new_row = document.getElementById("scores_table").insertRow(1);
